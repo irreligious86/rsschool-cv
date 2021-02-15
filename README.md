@@ -2,4 +2,4 @@
 
 ### [CV page][].
 
-[CV page]: https://your-github-account.github.io/rsschool-cv/cv
+[CV page]: https://irreligious86.github.io/rsschool-cv/cv
