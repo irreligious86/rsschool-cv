@@ -1,5 +1,9 @@
 # rsschool-cv
 
-### [CV page][].
+### [CV markdown syntax][]
 
-[CV page]: https://irreligious86.github.io/rsschool-cv/cv
+[CV markdown syntax]: https://irreligious86.github.io/rsschool-cv/cv
+
+### [CV HTML layout][]
+
+[CV HTML layout]: https://irreligious86.github.io/rsschool-cv/
