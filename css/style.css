@@ -33,6 +33,7 @@ footer {
 a.school-title {
     text-transform: full-size-kana;
     color: blue;
+    padding: 14px;
 }
 
 .header h1 {
