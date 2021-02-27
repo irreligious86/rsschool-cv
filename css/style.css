@@ -80,5 +80,24 @@ padding-bottom: 25px;
     padding: 8px;
 }
 
+.footer .youtube-description {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 35px;
+    background-color: #b4ca78;
+    box-shadow: 0 0 18px 5px rgba(200, 200, 200, .6);
+}
+
+.footer .youtube-description a img {
+    object-fit: cover;
+    width: 40px;
+    height: auto;
+    margin: 5px;
+}
+
 
 
