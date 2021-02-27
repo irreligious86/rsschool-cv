@@ -15,6 +15,18 @@ body {
     background-color: #eaeadf;
 }
 
+.logo img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+  }
+
 header,
 section,
 footer {
@@ -27,7 +39,7 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 a.school-title {
@@ -65,7 +77,24 @@ a.school-title {
 }
 
 .footer {
-padding-bottom: 25px;
+padding: 10px 25px;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: stretch;
+gap: 10px;
+}
+
+
+
+.footer .title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
 }
 
 .footer .social-links {
@@ -86,10 +115,15 @@ padding-bottom: 25px;
     align-items: center;
     align-content: center;
     justify-content: center;
-    gap: 25px;
-    margin-bottom: 35px;
-    background-color: #b4ca78;
-    box-shadow: 0 0 18px 5px rgba(200, 200, 200, .6);
+    gap: 5px;
+    /* margin-bottom: 35px; */
+    padding: 10px;
+    width: max(200px, 30vw);
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    border-radius: 5px;
+    /* background-color: #5d7e0938; */
+    box-shadow: inset 0 0 25px -5px rgba(43, 44, 25, 0.45);
 }
 
 .footer .youtube-description a img {
@@ -97,6 +131,13 @@ padding-bottom: 25px;
     width: 40px;
     height: auto;
     margin: 5px;
+}
+
+.footer .date {
+    margin: 15px auto;
+    display: block;
+font-size: larger;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 

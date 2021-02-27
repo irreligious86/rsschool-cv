@@ -24,7 +24,6 @@
 > + Git + GitHub
 > + Linux 
 > + Bash
-> + 
 
 ### Professional experience : ###
 > - Responsive cross-browser layout of sites and landing pages.
