@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
@@ -23,6 +22,7 @@
             </h1>
         </header>
         <section class="section section-general">
+            <h3>General:</h3>
             <ul>
                 <li>
                     <em class="name">
@@ -144,52 +144,20 @@
             <h3>
                 Examples of code :
             </h3>
-            <pre>
-                function gameStat () {
-                    let gamers = [
-                        {name: 'vasia', gameTime: 1000},
-                        {name: 'petia', gameTime: 2600},
-                        {name: 'kolia', gameTime: 3200},
-                        {name: 'mojsha', gameTime: 1200}
-                    ];
-                    function addUser (n, t) {
-                        gamers.push({ name: n, gameTime: t });
-                    };
-
-                const barGraph = document.createElement('canvas');
-                barGraph.classList.add('bar-graph');
-                barGraph.width = 450 ;
-                barGraph.height = 500 ;
-                barGraph.style.border = 'solid 2px red';
-                document.body.append(barGraph);
-                gamers.sort((l, r) => r.gameTime - l.gameTime);
-                let a = 1;
-                function createGraph (item, index) {
-                    gamers.forEach( function(gamers) { a &lt; gamers.gameTime ? a=gamers.gameTime : a } ); 
-                    const name=item.name; 
-                    const gameTime=item.gameTime; 
-                    const ctx=barGraph.getContext('2d'); 
-                    const ctxHeight=15; const ctxX=50; const ctxY=-10 + 20 * (1 + index); 
-                    const totalLenght=300;
-                    ctx.fillStyle='rgba(100, 250, 100, 0.4)' ; 
-                    ctx.fillRect(ctxX, ctxY, totalLenght, ctxHeight); 
-                    ctx.fillStyle='rgba(0, 0, 40, 0.1)' ; 
-                    ctx.fillRect(ctxX + 3 , ctxY + 3 , totalLenght, ctxHeight); 
-                    ctx.fillStyle='rgba(0, 250, 0, 0.6)' ; 
-                    ctx.fillRect(ctxX, ctxY, (gameTime * totalLenght * 0.93 / (a) ) , ctxHeight); 
-                    ctx.fillStyle='rgba(155, 40, 60, 1)' ; 
-                    ctx.font='14px monospace' ; 
-                    ctx.textBaseline='hanging' ; 
-                    ctx.fillText(name + ': ' + gameTime, ctxX + 2, ctxY + 2 ); 
-                    return ctx; }; 
-                   
-                    addUser('superuser', 800); 
-                    addUser('iskander', 5000); 
-                    addUser('admin', 4500);
-                    gamers.forEach(createGraph); 
-                }; 
-                gameStat(); 
-                </pre>
+<ul>
+    <li>
+        <a href="https://github.com/irreligious86/Marketika">Marketika</a>
+    </li>
+    <li>
+        <a href="https://github.com/irreligious86/freehand-landing">freehand-landing</a>
+    </li>
+    <li>
+        <a href="https://github.com/irreligious86/soundBubbles">soundBubbles</a>
+    </li>
+    <li>
+        <a href="https://github.com/irreligious86/money-keeper-v1.0">money-keeper</a>
+    </li>
+</ul>
         </section>
         <footer class="footer">
             <div class="title">
@@ -198,7 +166,7 @@
                         <img src="./img/rs_school_js.svg" alt="cover">
                     </a>
                 </div>
-                <a class="repo-link" href="https://github.com/irreligious86/rsschool-cv/tree/gh-pages" class="school-title">
+                <a class="repo-link" href="https://github.com/irreligious86/rsschool-cv/tree/gh-pages">
                     GitHub-repo 
                 </a>
                 <div class="youtube-description">

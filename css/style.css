@@ -21,12 +21,6 @@ body {
     object-fit: cover;
 }
 
-pre {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    text-align: justify;
-  }
-
 header,
 section,
 footer {
@@ -38,7 +32,8 @@ footer {
 .header {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
 }
 
